@@ -1,0 +1,38 @@
+// List of packages to be used 
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+import io.restassured.RestAssured;
+
+
+Sample Framework with Lib:
+Step-1:
+Creat a maven project
+
+Step-2:
+Indentify the test folder
+
+Step-3:
+Detelete the existing package
+
+Step-4:
+Create a new package LibTest
+
+Step5 :
+Create a class 
+Add the method
+
+Step6:
+Create another package for runner class 
+
+TestLib
+
+Call the method
+
+Step-7:
+Execute the runner class
+
+
+
+

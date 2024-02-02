@@ -1,0 +1,49 @@
+
+Folder structure :
+  src/test/java
+     LibPak - This package is having library file
+     LibTest.java
+     
+  ScriptRunner :
+     This package is having the runner classes .
+     .java files we need to execute.
+     Tc001_ReqGet.java [Please execute this file]
+     
+ ConfigData [This is a source folder]
+    config1.properties - method names
+    config2.properties - BaseURI and endPoint
+    configbody.properties - API body details for POST/Delete/Update
+ ResponseData: [This is a source folder]
+    Storing the screen image from console execution - Manually to maintain the reports
+    
+ pom.xml : configuration file for dependencies
+ 
+ 
+ 
+ how to execute the setup :
+ 
+ step-1:
+ Import the complete project in eclipse.
+ 
+ step-2:
+ clean and build the project
+ 
+ Step-3:
+ Veriyfy the jars in dependencies
+ 
+ Step-4:
+ Indentify the runner file in src/main/test --> ScriptRunner package
+ 
+ Step-5:
+ Execute as java file
+ 
+ Note :
+ Github link :
+ https://github.com/c11472/-APITesting_Contents_RestAssured_Jan-2024_Gayatri-.git
+ 
+ 
+    
+    
+     
+     
+     
