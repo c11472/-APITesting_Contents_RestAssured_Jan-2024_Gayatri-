@@ -1,0 +1,23 @@
+// This file is for TestNG with RestAssured Framework 
+
+
+public class RestRunner1 {
+
+	Scanner c = new Scanner(System.in);
+	Properties properties = new Properties();
+	LibTest obj = new LibTest();
+	FileInputStream input; // = new FileInputStream("./ConfigData/config2.properties");
+
+	@Test(priority = 1)
+	public void f() throws IOException {
+		obj.testGetRequest001(); // method call from lib
+
+	}
+
+	@Test(priority = 2)
+	public void f1() throws IOException {
+
+		obj.postRequest_002(); // call the method from lib
+	}
+
+}
